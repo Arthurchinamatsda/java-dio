@@ -1,3 +1,4 @@
+package java.src;
 public class TiposDeVariaveis {
     public static void main(String[]args){
         int numeroInteiros = 12;
@@ -26,5 +27,29 @@ public class TiposDeVariaveis {
         System.out.println(concatenizacao);
         concatenizacao = "1"+(1+1+1);
         System.out.println(concatenizacao);
+        int munero1 = 5;
+        munero1++;
+        munero1++;
+        System.out.println(munero1++);
+        System.out.println(munero1);
+        System.out.println(++ munero1);
+        System.out.println(munero1);
+        System.out.println(munero1 -- );
+        System.out.println(munero1);
+        boolean variavel = true;
+        System.out.println(!variavel);
+        int a, b;
+        a=1;
+        b=2;
+        String resultado;
+        if (a==b) {
+            resultado = "verdadeiro";
+            System.out.println(resultado);
+        }else{
+            resultado = "falso";
+            System.out.println(resultado);
+        }
+        String resultado2 = a==b?"verdadeiro":"falso";
+        System.out.println(resultado2);
     }
 }
