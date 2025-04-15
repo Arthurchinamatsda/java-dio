@@ -1,4 +1,3 @@
-package java.src;
 public class TiposDeVariaveis {
     public static void main(String[]args){
         int numeroInteiros = 12;

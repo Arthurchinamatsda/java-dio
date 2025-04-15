@@ -1,4 +1,3 @@
-package java.src;
 public class Escopo {
     double saldo = 10.0;
         public void pagarValor(int valor){

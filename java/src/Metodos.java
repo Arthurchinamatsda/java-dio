@@ -1,4 +1,3 @@
-package java.src;
 //import java.util.prefs.BackingStoreException;
 
 public class Metodos {
